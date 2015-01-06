@@ -119,3 +119,14 @@ body {
     
   }
  
+ .main-alert{
+  max-width:  400px;
+  margin: 0 auto;
+  background-color: white;
+   box-shadow: 2px 2px 2px black;
+   -webkit-box-shadow: 2px 2px 2px black;
+   -moz-box-shadow: 2px 2px 2px black;
+ }
+ .alert-hidden{
+  visibility: :hidden;
+ }

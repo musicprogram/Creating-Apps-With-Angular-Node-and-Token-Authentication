@@ -11,8 +11,9 @@ angular.module('angularNodeApp').config(function($urlRouterProvider, $stateProvi
 
 
 	.state('register',{
-		url:'/register',
-		templateUrl: '/views/register.html'
+		url:'/register', 
+		templateUrl: '/views/register.html',
+		controller:'RegisterCtrl'
 	});
 
 })
